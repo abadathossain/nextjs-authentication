@@ -14,7 +14,7 @@ export default async function RootLayout({
 }>) {
   return (
     <html lang="en" data-theme="light">
-      <body>
+      <body suppressHydrationWarning>
         <Navbar />
         <div className="min-h-screen w-[90%] mx-auto">{children}</div>
       </body>
